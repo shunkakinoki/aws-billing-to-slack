@@ -2,7 +2,7 @@ from collections import defaultdict
 import boto3
 import datetime
 import os
-import requests
+from botocore.vendored import requests
 import sys
 
 n_days = 7
